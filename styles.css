@@ -22,10 +22,6 @@
     overflow-y: scroll;
 }
 
-.navbar {
-
-}
-
 .btn2 {
   background: #4683ab;
   background-image: -webkit-linear-gradient(top, #4683ab, #2980b9);
@@ -41,6 +37,10 @@
   font-size: 13px;
   padding: 4px 16px 4px 16px;
   text-decoration: none;
+}
+
+.btn-group{
+  margin-top: 10px;
 }
 
 .btn2:hover {
@@ -68,6 +68,7 @@
   font-size: 17px;
   padding: 7px 20px 7px 20px;
   text-decoration: none;
+  width:370px;
 }
 
 .btn:hover {
@@ -78,12 +79,23 @@
   background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
   text-decoration: none;
+  width:93%;
 }
 
 h1{
   text-align: center;
+  margin-top: 80px
 }
 
 body{
   background-color: #333;
+}
+
+.col-lg-6 {
+  width: 93%;
+}
+
+.listDiv{
+  width: 450px;
+  margin: auto;
 }
